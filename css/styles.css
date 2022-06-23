@@ -14,6 +14,22 @@
   --border-colors: #ececec;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;}
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
 .link {
   text-decoration: none;
 }
@@ -238,6 +254,7 @@ body {
 
 .description {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -256,6 +273,9 @@ body {
 /* ========== /our-qualities ========== */
 
 /* =========== What we doing ============ */
+
+.no-padding {padding-top: 0;}
+
 .we-work {
   margin-bottom: 50px;
 }
@@ -306,7 +326,7 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 /* =========== /Our Team ============ */
 
@@ -394,10 +414,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .project-tipe {
-  margin-top: 0px;
-  margin-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 4px;
+  /* margin-top: 0px; */
+  /* margin-left: 24px;
+  padding-top: 20px; */
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -407,8 +427,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .project-text {
-  margin-bottom: 20px;
-  margin-left: 24px;
+ 
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -427,6 +446,9 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .project { 
+  padding: 20px 24px;
+  /* margin-bottom: 20px;
+  margin-left: 24px; */
   border-left: 1px solid var(--border-colors);
   border-right: 1px solid var(--border-colors);
   border-bottom: 1px solid var(--border-colors);
